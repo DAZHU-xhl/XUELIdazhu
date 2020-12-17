@@ -1,0 +1,215 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:"Microsoft Yahei","微软雅黑",Verdana;
+	background: #0097E0;
+	font-size:12px;
+	color:#000;
+}
+td {
+	color: #000;
+	font-size:12px;
+}
+ul,li {
+	list-style:none;
+}
+.pr {
+	position:relative;
+}
+.pa {
+	position:absolute;
+}
+.mt20 {
+	margin-top:20px;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+a {
+	text-decoration: none;
+	color:#000;
+}
+a:hover {color:#ff0000;}
+img {
+	border:none;
+	display:block;
+}
+.clearfloat {clear:both;}
+.clearfix:after { /*在类名为“clearfix”的元素内最后面加入内容； */
+    content: ".";     /*内容为“.”就是一个英文的句号而已 也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除浮动*/
+    visibility: hidden;      /*可见度设为隐藏。*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    
+}
+.main-box {
+	width:981px;
+	margin:0 auto;
+	background:#fff;
+}
+.header {
+	width:981px;
+	height:106px;
+	margin:0 auto;
+	background:url(../images/index_02.jpg);
+	position:relative;
+}
+.search {width:160px;position:absolute;right:6px;top:48px;}
+.search-keyword {width:124px;height:26px;line-height:26px;float:left; background:none; border:none; color:#ccc;font-family:arial;}
+.search-submit {cursor:pointer; width:35px; height:26px; display:block; border:none; background:none; float:right;}
+
+.nav {
+	background:url(../images/index_04.jpg);
+	height:40px;
+	padding-left:100px;
+}
+.nav li {
+	float:left;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	margin:0 20px;
+	font-weight:bold;
+}
+.index-banner {
+	width:981px;
+	height:365px;
+}
+#box {
+ position:relative;
+ width:981px;
+ height:365px;
+}
+#box .imgList{
+ position:relative;
+ width:981px;
+ height:365px;
+ overflow:hidden;
+}
+#box .imgList li{
+ position:absolute;
+ top:0;
+ left:0;
+ width:981px;
+ height:365px;
+}
+#box .countNum{
+ position:absolute;
+ right:0;
+ bottom:5px;
+}
+#box .countNum li{
+ width:20px;
+ height:20px;
+ float:left;
+ color:#fff;
+ border-radius:20px;
+ background:#f90;
+ text-align:center;
+ margin-right:5px;
+ cursor:pointer;
+ opacity:0.7;
+ filter:alpha(opacity=70);
+}
+#box .countNum li.current{
+ background:#f60;
+ font-weight:bold;
+ opacity:1;
+ filter:alpha(opacity=70);
+}
+
+.tit {
+	height:35px;
+	line-height:35px;
+	font-size:15px;
+	color:#000;
+}
+.news-box {
+	width:620px;
+	padding:10px 0;
+	margin-left:22px;
+}
+.news-con {
+	width:390px;
+	line-height:1.5;
+}
+.news-con p {
+	text-indent:2em;
+}
+
+.news-box ul {
+	margin-top:10px;
+	border-top:1px dotted #ccc;
+}
+.news-box ul li {
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+	border-bottom:1px dotted #ccc;
+}
+
+.news-box ul li span {
+	float:right;
+}
+.news-box1 {
+	width:320px;
+	margin-left:10px;
+}
+
+.news-box1 .ico1 li {
+	float:left;
+	margin:5px;
+} 
+
+.news-box1 .ico2 li {
+	float:left;
+	margin:5px;
+}
+
+.main-con {
+	width:100%;
+}
+.index-center-pic {
+	
+}
+.index-center-pic img {
+	margin:10px auto;
+}
+
+.footer {
+	width:980px;
+	margin:0px auto;
+	background:#fff;
+	padding:10px 0;
+	line-height:25px;
+	color:#000;
+	text-align:center;
+}
+.footer p span {
+	padding:0 5px;
+}
+.footer p a {
+	
+	color:#000;
+}
+
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/move.jpg") no-repeat right top;
+}
+/**/
